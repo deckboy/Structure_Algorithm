@@ -21,7 +21,7 @@ class MaxHeap:
         if len(self.heap)>2:
             self.__swap(1,len(self.heap)-1)
             max = self.heap.pop() # remove the last on list
-            self.__bubbleDown
+            self.__bubbleDown(1)
             
         elif len(self.heap) ==2:
             max = self.heap.pop()
